@@ -23,7 +23,7 @@
 * `--codes=code1, code2, ...` - requested currency codes (separated by comma). Use `*` instead to get all available codes.
 * `--rewrite` - clear current database before saving data (optional)
 
-
+###### Examples
 ```commandline
 python start.py --date=10.03.2022 --codes=840,978,156
 
@@ -33,6 +33,7 @@ python start.py --date=01.06.2020 --codes=* --rewrite
 #### B) From python code:
 You have to create object by `OnDateCurs` class from `currecy_service.py`
 
+###### Example
 ```python
 from currency_service import OnDateCurs
 
@@ -53,6 +54,7 @@ File | Description
 `soap-template.xml` | Request template for [Central bank of Russia web service](https://cbr.ru/DailyInfoWebServ/DailyInfo.asmx?op=GetCursOnDateXML) service
 `pretty_table.py` | Simple table decorator
 `launch_args_parser.py` | Primitive command-line arguments handler
+`test.py` | Tests
 `currency.db` | Default SQLite database
 `ondatecurs.log` | Default log file
 
