@@ -59,7 +59,7 @@ File | Description
 `ondatecurs.log` | Default log file (created by service)
 
 ### Requirements
-#### Built-in modules and libraries
+#### Python 3.8+ interpreter with built-in modules and libraries
 - `sqlite3`
 - `os.path`
 - `sys`
