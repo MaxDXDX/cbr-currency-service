@@ -68,9 +68,6 @@ File | Description
 - `urllib.request` and `urllib.error`
 
 #### No any third-party packages required
-  
-
-######(C) Max Dubrovin, Kirov Russia 2022
 
 
 
