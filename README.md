@@ -55,8 +55,8 @@ File | Description
 `pretty_table.py` | Simple table decorator
 `launch_args_parser.py` | Primitive command-line arguments handler
 `test.py` | Tests
-`currency.db` | Default SQLite database
-`ondatecurs.log` | Default log file
+`currency.db` | Default SQLite database (created by service)
+`ondatecurs.log` | Default log file (created by service)
 
 ### Requirements
 #### Built-in modules and libraries
