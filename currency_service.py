@@ -5,7 +5,8 @@
 
 """
 
-import requests
+from urllib.error import HTTPError, URLError
+from urllib.request import urlopen, Request
 
 import db_controller
 from db_controller import DbController
@@ -17,12 +18,16 @@ from xml_parser import tag_content, tag_attribute, xml_date
 
 class OnDateCurs:
     """Currency service main logic Class"""
-    def __init__(self, db_file):
-        self.logger = Logger('ondatecurs.log', show_time=True)
+    def __init__(self, db_file, options=None, log_enable=True):
+        self.logger = Logger('ondatecurs.log', enable=log_enable, show_time=True)
         self.logger.log('Service have been started')
         self.url = 'https://cbr.ru/DailyInfoWebServ/DailyInfo.asmx'
         self.request_template = 'soap-template.xml'
-        self.args = SysArgsParser(require_args=['date', 'codes'], logger=self.logger)
+        self.args = SysArgsParser(
+            require_args=['date', 'codes'],
+            init_args=options,
+            logger=self.logger)
+
         self.db_file = db_file
 
         self.main_routine()
@@ -58,23 +63,38 @@ class OnDateCurs:
 
         headers = {
             'Content-Type': 'application/soap+xml; charset=utf-8',
-            'Content-Length': '0',
+            # 'Content-Length': '0',
         }
         with open('soap-template.xml', 'r') as f:
             data = f.read()
         data = data.replace('{ date }', xml_date(date))
 
+        request = Request(self.url, headers=headers, data=data.encode("utf-8"))
         try:
-            self.logger.log('Trying make data request...')
-            response = requests.post(url=self.url, data=data, headers=headers)
-            response.raise_for_status()
-        except requests.exceptions.RequestException as E:
-            self.logger.log(f'ERROR: request error')
-            return False
-        else:
-            self.logger.log(f'Response is got, code - {response.status_code}')
-            xml_data = response.text
-            return xml_data
+            with urlopen(request, timeout=10) as response:
+                self.logger.log(f'Response is got, code - {response.status}')
+                xml_data = response.read().decode('utf-8')
+                return xml_data
+        except HTTPError as error:
+            self.logger.log(f'ERROR: {error.status}, {error.reason}')
+        except URLError as error:
+            self.logger.log(f'ERROR: {error.reason}')
+        except TimeoutError:
+            self.logger.log(f'ERROR: Request timed out')
+
+        # VARIANT 2: using third-party REQUESTS library:
+
+        # try:
+        #     self.logger.log('Trying make data request...')
+        #     response = requests.post(url=self.url, data=data, headers=headers)
+        #     response.raise_for_status()
+        # except requests.exceptions.RequestException as E:
+        #     self.logger.log(f'ERROR: request error')
+        #     return False
+        # else:
+        #     self.logger.log(f'Response is got, code - {response.status_code}')
+        #     xml_data = response.text
+        #     return xml_data
 
     def db_payload(self, xml_data):
         """Parse response content, extract currency data and build data structure to save it into database using
@@ -146,6 +166,7 @@ class OnDateCurs:
         report = db.write_data(payload)
         db.close_db()
 
-        report.insert(0, ['№ расп.', 'Дата', 'Валюта', 'Номинал', 'Курс'])
-        print('\nDatabase update report:')
-        print_pretty_table(report)
+        if self.logger.enable:
+            report.insert(0, ['№ расп.', 'Дата', 'Валюта', 'Номинал', 'Курс'])
+            print('\nDatabase update report:')
+            print_pretty_table(report)

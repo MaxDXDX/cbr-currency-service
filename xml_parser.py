@@ -6,7 +6,7 @@ It was also possible to use ready to use modules (xml for example), but I have b
 
 """
 
-import re, xml
+import re
 
 
 def tag_attribute(text: str, tag_name: str, attr_name: str):

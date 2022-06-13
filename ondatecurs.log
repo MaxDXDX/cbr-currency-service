@@ -2240,3 +2240,779 @@ Database closed
 2022-06-13 18:36:59  Order of date 20220310 with id 7 is inserted into db.
 2022-06-13 18:36:59  Database successfully updated by 3 rows
 2022-06-13 18:36:59  Database closed
+2022-06-13 21:06:22  Service have been started
+2022-06-13 21:06:22  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:06:45  Service have been started
+2022-06-13 21:06:45  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:06:45  ERROR: 500, Internal Server Error
+2022-06-13 21:06:45  Service stopped
+2022-06-13 21:12:29  Service have been started
+2022-06-13 21:12:29  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:12:29  ERROR: 500, Internal Server Error
+2022-06-13 21:12:29  Service stopped
+2022-06-13 21:13:32  Service have been started
+2022-06-13 21:13:32  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:13:32  Trying make data request...
+2022-06-13 21:13:32  Response is got, code - 200
+2022-06-13 21:13:32  Ondate attribute in response: 20220310
+2022-06-13 21:13:32  Total currencies in response: 34
+2022-06-13 21:13:32  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:13:32  Existing database is found and connected.
+2022-06-13 21:13:32  WARNING: Order for date 10.03.2022 is already existed with id 7. Insert ignored.
+2022-06-13 21:13:32  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 21:13:32  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 21:13:32  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 21:13:32  There is no data to insert into database
+2022-06-13 21:13:32  Database closed
+2022-06-13 21:13:59  Service have been started
+2022-06-13 21:13:59  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:14:09  Service have been started
+2022-06-13 21:14:09  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:14:09  ERROR: 500, Internal Server Error
+2022-06-13 21:14:09  Service stopped
+2022-06-13 21:18:11  Service have been started
+2022-06-13 21:18:11  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:18:11  Response is got, code - 200
+2022-06-13 21:18:56  Service have been started
+2022-06-13 21:18:56  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:18:56  Response is got, code - 200
+2022-06-13 21:19:07  Service have been started
+2022-06-13 21:19:07  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:19:08  Response is got, code - 200
+2022-06-13 21:20:07  Service have been started
+2022-06-13 21:20:07  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:20:07  Response is got, code - 200
+2022-06-13 21:21:19  Service have been started
+2022-06-13 21:21:19  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:21:19  Response is got, code - 200
+2022-06-13 21:21:19  Ondate attribute in response: 20220310
+2022-06-13 21:21:20  Total currencies in response: 34
+2022-06-13 21:21:20  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:21:20  Existing database is found and connected.
+2022-06-13 21:21:20  WARNING: Order for date 10.03.2022 is already existed with id 7. Insert ignored.
+2022-06-13 21:21:20  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 21:21:20  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 21:21:20  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 21:21:20  There is no data to insert into database
+2022-06-13 21:21:20  Database closed
+2022-06-13 21:21:25  Service have been started
+2022-06-13 21:21:25  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:21:25  Response is got, code - 200
+2022-06-13 21:21:25  Ondate attribute in response: 20220306
+2022-06-13 21:21:25  WARNING: response currency info date for 09.03.2022 is 06.03.2022
+2022-06-13 21:21:25  Total currencies in response: 34
+2022-06-13 21:21:25  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:21:25  Existing database is found and connected.
+2022-06-13 21:21:25  WARNING: Order for date 06.03.2022 is already existed with id 6. Insert ignored.
+2022-06-13 21:21:25  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 21:21:25  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 21:21:25  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 21:21:25  There is no data to insert into database
+2022-06-13 21:21:25  Database closed
+2022-06-13 21:21:37  Service have been started
+2022-06-13 21:21:37  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:21:37  Response is got, code - 200
+2022-06-13 21:21:37  Ondate attribute in response: 20200229
+2022-06-13 21:21:37  WARNING: response currency info date for 02.03.2020 is 29.02.2020
+2022-06-13 21:21:37  Total currencies in response: 34
+2022-06-13 21:21:37  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:21:37  Existing database is found and connected.
+2022-06-13 21:21:37  Order of date 20200229 with id 8 is inserted into db.
+2022-06-13 21:21:37  Database successfully updated by 3 rows
+2022-06-13 21:21:37  Database closed
+2022-06-13 21:22:04  Service have been started
+2022-06-13 21:22:04  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:22:05  Response is got, code - 200
+2022-06-13 21:22:05  Ondate attribute in response: 20200229
+2022-06-13 21:22:05  WARNING: response currency info date for 02.03.2020 is 29.02.2020
+2022-06-13 21:22:05  Total currencies in response: 34
+2022-06-13 21:22:05  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:22:05  Existing database is found and connected.
+2022-06-13 21:22:05  WARNING: Order for date 29.02.2020 is already existed with id 8. Insert ignored.
+2022-06-13 21:22:05  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 21:22:05  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 21:22:05  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 21:22:05  There is no data to insert into database
+2022-06-13 21:22:05  Database closed
+2022-06-13 21:22:09  Service have been started
+2022-06-13 21:22:09  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:22:09  Response is got, code - 200
+2022-06-13 21:22:09  Ondate attribute in response: 20190302
+2022-06-13 21:22:09  Total currencies in response: 34
+2022-06-13 21:22:09  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:22:09  Existing database is found and connected.
+2022-06-13 21:22:09  Order of date 20190302 with id 9 is inserted into db.
+2022-06-13 21:22:09  Database successfully updated by 3 rows
+2022-06-13 21:22:09  Database closed
+2022-06-13 21:24:16  Service have been started
+2022-06-13 21:24:16  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:24:16  Response is got, code - 200
+2022-06-13 21:24:16  Ondate attribute in response: 20190302
+2022-06-13 21:24:16  Total currencies in response: 34
+2022-06-13 21:24:16  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:24:16  Existing database is found and connected.
+2022-06-13 21:24:16  WARNING: Order for date 02.03.2019 is already existed with id 9. Insert ignored.
+2022-06-13 21:24:16  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 21:24:16  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 21:24:16  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 21:24:16  There is no data to insert into database
+2022-06-13 21:24:16  Database closed
+2022-06-13 21:24:20  Service have been started
+2022-06-13 21:24:20  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 21:24:20  Response is got, code - 200
+2022-06-13 21:24:20  Ondate attribute in response: 20180302
+2022-06-13 21:24:20  Total currencies in response: 34
+2022-06-13 21:24:20  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 21:24:20  Existing database is found and connected.
+2022-06-13 21:24:20  Order of date 20180302 with id 10 is inserted into db.
+2022-06-13 21:24:20  Database successfully updated by 3 rows
+2022-06-13 21:24:20  Database closed
+2022-06-13 22:10:51  Service have been started
+2022-06-13 22:10:51  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:10:51  Response is got, code - 200
+2022-06-13 22:10:51  Ondate attribute in response: 20180302
+2022-06-13 22:10:51  Total currencies in response: 34
+2022-06-13 22:10:51  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:10:51  Existing database is found and connected.
+2022-06-13 22:10:51  WARNING: Order for date 02.03.2018 is already existed with id 10. Insert ignored.
+2022-06-13 22:10:51  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:10:51  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:10:51  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:10:51  There is no data to insert into database
+2022-06-13 22:10:51  Database closed
+2022-06-13 22:10:59  Service have been started
+2022-06-13 22:10:59  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:10:59  Response is got, code - 200
+2022-06-13 22:10:59  Ondate attribute in response: 20180302
+2022-06-13 22:10:59  Total currencies in response: 34
+2022-06-13 22:10:59  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:10:59  Existing database is found and connected.
+2022-06-13 22:10:59  WARNING: Order for date 02.03.2018 is already existed with id 10. Insert ignored.
+2022-06-13 22:10:59  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:10:59  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:10:59  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:10:59  Database successfully updated by 31 rows
+2022-06-13 22:10:59  Database closed
+2022-06-13 22:11:35  Service have been started
+2022-06-13 22:11:35  ERROR: Missing require argument: --date
+2022-06-13 22:11:35  ERROR: Missing require argument: --codes
+2022-06-13 22:11:35  Service stopped
+2022-06-13 22:13:37  Service have been started
+2022-06-13 22:14:57  Service have been started
+2022-06-13 22:19:39  Service have been started
+2022-06-13 22:19:39  ERROR: Missing require argument: --date
+2022-06-13 22:19:39  ERROR: Missing require argument: --codes
+2022-06-13 22:19:39  Service stopped
+2022-06-13 22:20:15  Service have been started
+2022-06-13 22:20:15  ERROR: Missing require argument: --date
+2022-06-13 22:20:15  ERROR: Missing require argument: --codes
+2022-06-13 22:20:15  Service stopped
+2022-06-13 22:21:20  Service have been started
+2022-06-13 22:21:20  ERROR: Missing require argument: --date
+2022-06-13 22:21:20  ERROR: Missing require argument: --codes
+2022-06-13 22:21:20  Service stopped
+2022-06-13 22:22:46  Service have been started
+2022-06-13 22:22:46  ERROR: Missing require argument: --date
+2022-06-13 22:22:46  ERROR: Missing require argument: --codes
+2022-06-13 22:22:46  Service stopped
+2022-06-13 22:23:37  Service have been started
+2022-06-13 22:23:37  ERROR: Missing require argument: --date
+2022-06-13 22:23:37  ERROR: Missing require argument: --codes
+2022-06-13 22:23:37  Service stopped
+2022-06-13 22:23:42  Service have been started
+2022-06-13 22:23:42  ERROR: Missing require argument: --date
+2022-06-13 22:23:42  ERROR: Missing require argument: --codes
+2022-06-13 22:23:42  Service stopped
+2022-06-13 22:25:08  Service have been started
+2022-06-13 22:25:08  ERROR: Missing require argument: --date
+2022-06-13 22:25:08  ERROR: Missing require argument: --codes
+2022-06-13 22:25:08  Service stopped
+2022-06-13 22:26:50  Service have been started
+2022-06-13 22:26:50  ERROR: Missing require argument: --date
+2022-06-13 22:26:50  ERROR: Missing require argument: --codes
+2022-06-13 22:26:50  Service stopped
+2022-06-13 22:28:45  Service have been started
+2022-06-13 22:28:45  ERROR: Missing require argument: --date
+2022-06-13 22:28:45  ERROR: Missing require argument: --codes
+2022-06-13 22:28:45  Service stopped
+2022-06-13 22:29:02  Service have been started
+2022-06-13 22:29:02  ERROR: Missing require argument: --date
+2022-06-13 22:29:02  ERROR: Missing require argument: --codes
+2022-06-13 22:29:02  Service stopped
+2022-06-13 22:29:18  Service have been started
+2022-06-13 22:29:18  ERROR: Missing require argument: --date
+2022-06-13 22:29:18  ERROR: Missing require argument: --codes
+2022-06-13 22:29:18  Service stopped
+2022-06-13 22:30:43  Service have been started
+2022-06-13 22:30:43  ERROR: Missing require argument: --date
+2022-06-13 22:30:43  Service stopped
+2022-06-13 22:32:05  Service have been started
+2022-06-13 22:32:05  ERROR: Missing require argument: --date
+2022-06-13 22:32:05  Service stopped
+2022-06-13 22:32:32  Service have been started
+2022-06-13 22:32:32  ERROR: Missing require argument: --date
+2022-06-13 22:32:32  Service stopped
+2022-06-13 22:33:07  Service have been started
+2022-06-13 22:33:07  ERROR: Missing require argument: --date
+2022-06-13 22:33:07  Service stopped
+2022-06-13 22:33:19  Service have been started
+2022-06-13 22:33:19  ERROR: Missing require argument: --date
+2022-06-13 22:33:19  Service stopped
+2022-06-13 22:34:32  Service have been started
+2022-06-13 22:34:32  ERROR: Missing require argument: --date
+2022-06-13 22:34:32  Service stopped
+2022-06-13 22:35:06  Service have been started
+2022-06-13 22:35:06  ERROR: Missing require argument: --date
+2022-06-13 22:35:06  Service stopped
+2022-06-13 22:35:14  Service have been started
+2022-06-13 22:35:14  ERROR: Missing require argument: --date
+2022-06-13 22:35:14  Service stopped
+2022-06-13 22:35:21  Service have been started
+2022-06-13 22:35:21  ERROR: Missing require argument: --date
+2022-06-13 22:35:21  Service stopped
+2022-06-13 22:38:21  Service have been started
+2022-06-13 22:38:21  ERROR: Missing require argument: --date
+2022-06-13 22:38:21  Service stopped
+2022-06-13 22:38:49  Service have been started
+2022-06-13 22:38:49  ERROR: Missing require argument: --date
+2022-06-13 22:38:49  ERROR: Missing require argument: --codes
+2022-06-13 22:38:49  Service stopped
+2022-06-13 22:39:27  Service have been started
+2022-06-13 22:39:27  ERROR: Currency codes are invalid
+2022-06-13 22:39:27  Service stopped
+2022-06-13 22:39:36  Service have been started
+2022-06-13 22:39:36  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:39:36  Response is got, code - 200
+2022-06-13 22:39:36  Ondate attribute in response: 20220507
+2022-06-13 22:39:36  WARNING: response currency info date for 11.05.2022 is 07.05.2022
+2022-06-13 22:39:36  Total currencies in response: 34
+2022-06-13 22:39:36  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:39:36  Existing database is found and connected.
+2022-06-13 22:39:36  Order of date 20220507 with id 11 is inserted into db.
+2022-06-13 22:39:36  Database successfully updated by 34 rows
+2022-06-13 22:39:36  Database closed
+2022-06-13 22:39:47  Service have been started
+2022-06-13 22:39:47  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:39:52  Response is got, code - 200
+2022-06-13 22:39:52  Ondate attribute in response: 20220507
+2022-06-13 22:39:52  WARNING: response currency info date for 11.05.2022 is 07.05.2022
+2022-06-13 22:39:52  Total currencies in response: 34
+2022-06-13 22:39:52  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:39:52  Existing database is found and connected.
+2022-06-13 22:39:52  WARNING: Order for date 07.05.2022 is already existed with id 11. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 944 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 51 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 933 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 975 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 986 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 348 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 344 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 356 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 417 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 498 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 985 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 946 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 972 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 934 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 860 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 203 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 410 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:39:52  There is no data to insert into database
+2022-06-13 22:39:52  Database closed
+2022-06-13 22:41:55  Service have been started
+2022-06-13 22:41:55  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:41:56  Response is got, code - 200
+2022-06-13 22:41:56  Ondate attribute in response: 20220507
+2022-06-13 22:41:56  WARNING: response currency info date for 11.05.2022 is 07.05.2022
+2022-06-13 22:41:56  Total currencies in response: 34
+2022-06-13 22:41:56  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:41:56  Existing database is found and connected.
+2022-06-13 22:41:56  WARNING: Order for date 07.05.2022 is already existed with id 11. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 944 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 51 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 933 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 975 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 986 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 348 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 344 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 356 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 417 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 498 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 985 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 946 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 972 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 934 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 860 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 203 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 410 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:41:56  There is no data to insert into database
+2022-06-13 22:41:56  Database closed
+2022-06-13 22:42:15  Service have been started
+2022-06-13 22:42:15  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:42:15  Response is got, code - 200
+2022-06-13 22:42:15  Ondate attribute in response: 20220507
+2022-06-13 22:42:15  WARNING: response currency info date for 11.05.2022 is 07.05.2022
+2022-06-13 22:42:15  Total currencies in response: 34
+2022-06-13 22:42:15  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:42:15  Existing database is found and connected.
+2022-06-13 22:42:15  WARNING: Order for date 07.05.2022 is already existed with id 11. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 944 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 51 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 933 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 975 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 986 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 348 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 344 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 356 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 417 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 498 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 985 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 946 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 972 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 934 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 860 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 203 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 410 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:42:15  There is no data to insert into database
+2022-06-13 22:42:15  Database closed
+2022-06-13 22:43:38  Service have been started
+2022-06-13 22:43:38  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:43:38  Response is got, code - 200
+2022-06-13 22:43:38  Ondate attribute in response: 20180302
+2022-06-13 22:43:38  Total currencies in response: 34
+2022-06-13 22:43:38  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:43:38  Existing database is found and connected.
+2022-06-13 22:43:38  WARNING: Order for date 02.03.2018 is already existed with id 10. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 944 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 51 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 933 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 975 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 986 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 348 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 344 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 356 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 417 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 498 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 985 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 946 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 972 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 934 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 860 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 203 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 410 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:43:38  There is no data to insert into database
+2022-06-13 22:43:38  Database closed
+2022-06-13 22:43:51  Service have been started
+2022-06-13 22:43:51  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:43:51  Response is got, code - 200
+2022-06-13 22:43:51  Ondate attribute in response: 20170302
+2022-06-13 22:43:51  Total currencies in response: 33
+2022-06-13 22:43:51  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:43:51  Existing database is found and connected.
+2022-06-13 22:43:51  Order of date 20170302 with id 12 is inserted into db.
+2022-06-13 22:43:51  Database successfully updated by 33 rows
+2022-06-13 22:43:51  Database closed
+2022-06-13 22:44:02  Service have been started
+2022-06-13 22:44:02  ERROR: Missing require argument: --date
+2022-06-13 22:44:02  ERROR: Missing require argument: --codes
+2022-06-13 22:44:02  Service stopped
+2022-06-13 22:44:30  Service have been started
+2022-06-13 22:44:30  ERROR: Missing require argument: --date
+2022-06-13 22:44:30  ERROR: Missing require argument: --codes
+2022-06-13 22:44:30  Service stopped
+2022-06-13 22:44:59  Service have been started
+2022-06-13 22:44:59  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:44:59  Response is got, code - 200
+2022-06-13 22:44:59  Ondate attribute in response: 20120511
+2022-06-13 22:44:59  Total currencies in response: 35
+2022-06-13 22:44:59  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:44:59  Existing database is found and connected.
+2022-06-13 22:44:59  Order of date 20120511 with id 13 is inserted into db.
+2022-06-13 22:44:59  Database successfully updated by 35 rows
+2022-06-13 22:44:59  Database closed
+2022-06-13 22:45:11  Service have been started
+2022-06-13 22:45:11  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:45:11  Response is got, code - 200
+2022-06-13 22:45:11  Ondate attribute in response: 20130509
+2022-06-13 22:45:11  WARNING: response currency info date for 11.05.2013 is 09.05.2013
+2022-06-13 22:45:11  Total currencies in response: 35
+2022-06-13 22:45:11  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:45:11  Existing database is found and connected.
+2022-06-13 22:45:11  Order of date 20130509 with id 14 is inserted into db.
+2022-06-13 22:45:11  Database successfully updated by 35 rows
+2022-06-13 22:45:11  Database closed
+2022-06-13 22:45:17  Service have been started
+2022-06-13 22:45:17  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:45:17  Response is got, code - 200
+2022-06-13 22:45:17  Ondate attribute in response: 20160302
+2022-06-13 22:45:17  Total currencies in response: 33
+2022-06-13 22:45:17  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:45:17  Existing database is found and connected.
+2022-06-13 22:45:17  Order of date 20160302 with id 15 is inserted into db.
+2022-06-13 22:45:17  Database successfully updated by 33 rows
+2022-06-13 22:45:17  Database closed
+2022-06-13 22:45:36  Service have been started
+2022-06-13 22:45:36  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:45:36  Response is got, code - 200
+2022-06-13 22:45:36  Ondate attribute in response: 20120511
+2022-06-13 22:45:36  Total currencies in response: 35
+2022-06-13 22:45:36  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:45:36  Existing database is found and connected.
+2022-06-13 22:45:36  WARNING: Order for date 11.05.2012 is already existed with id 13. Insert ignored.
+2022-06-13 22:45:36  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:45:36  There is no data to insert into database
+2022-06-13 22:45:36  Database closed
+2022-06-13 22:45:47  Service have been started
+2022-06-13 22:45:47  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:45:47  Response is got, code - 200
+2022-06-13 22:45:47  Ondate attribute in response: 20120511
+2022-06-13 22:45:47  Total currencies in response: 35
+2022-06-13 22:45:47  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:45:47  Existing database is found and connected.
+2022-06-13 22:45:47  WARNING: Order for date 11.05.2012 is already existed with id 13. Insert ignored.
+2022-06-13 22:45:47  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:45:47  There is no data to insert into database
+2022-06-13 22:45:47  Database closed
+2022-06-13 22:46:00  Service have been started
+2022-06-13 22:46:00  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:46:00  Response is got, code - 200
+2022-06-13 22:46:00  Ondate attribute in response: 20160611
+2022-06-13 22:46:00  Total currencies in response: 33
+2022-06-13 22:46:00  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:46:00  Existing database is found and connected.
+2022-06-13 22:46:00  Order of date 20160611 with id 16 is inserted into db.
+2022-06-13 22:46:01  Database successfully updated by 1 rows
+2022-06-13 22:46:01  Database closed
+2022-06-13 22:46:16  Service have been started
+2022-06-13 22:46:16  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:46:16  Response is got, code - 200
+2022-06-13 22:46:16  Ondate attribute in response: 20080301
+2022-06-13 22:46:16  WARNING: response currency info date for 02.03.2008 is 01.03.2008
+2022-06-13 22:46:16  Total currencies in response: 18
+2022-06-13 22:46:16  WARNING: Requested currency code 203 is not founded in response currency list
+2022-06-13 22:46:16  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:46:16  Existing database is found and connected.
+2022-06-13 22:46:16  Order of date 20080301 with id 17 is inserted into db.
+2022-06-13 22:46:16  There is no data to insert into database
+2022-06-13 22:46:16  Database closed
+2022-06-13 22:46:40  Service have been started
+2022-06-13 22:46:40  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:46:40  Response is got, code - 200
+2022-06-13 22:46:41  Ondate attribute in response: 20150228
+2022-06-13 22:46:41  WARNING: response currency info date for 02.03.2015 is 28.02.2015
+2022-06-13 22:46:41  Total currencies in response: 33
+2022-06-13 22:46:41  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:46:41  Existing database is found and connected.
+2022-06-13 22:46:41  Order of date 20150228 with id 17 is inserted into db.
+2022-06-13 22:46:41  Database successfully updated by 1 rows
+2022-06-13 22:46:41  Database closed
+2022-06-13 22:46:59  Service have been started
+2022-06-13 22:46:59  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:47:04  Response is got, code - 200
+2022-06-13 22:47:04  Ondate attribute in response: 20080301
+2022-06-13 22:47:04  WARNING: response currency info date for 02.03.2008 is 01.03.2008
+2022-06-13 22:47:04  Total currencies in response: 18
+2022-06-13 22:47:04  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:47:04  Existing database is found and connected.
+2022-06-13 22:47:04  Order of date 20080301 with id 18 is inserted into db.
+2022-06-13 22:47:04  Database successfully updated by 18 rows
+2022-06-13 22:47:04  Database closed
+2022-06-13 22:47:25  Service have been started
+2022-06-13 22:47:25  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:47:25  Response is got, code - 200
+2022-06-13 22:47:25  Ondate attribute in response: 20080301
+2022-06-13 22:47:25  WARNING: response currency info date for 02.03.2008 is 01.03.2008
+2022-06-13 22:47:25  Total currencies in response: 18
+2022-06-13 22:47:25  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:47:25  Existing database is found and connected.
+2022-06-13 22:47:25  WARNING: Order for date 01.03.2008 is already existed with id 18. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 974 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 352 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:47:25  There is no data to insert into database
+2022-06-13 22:47:25  Database closed
+2022-06-13 22:47:36  Service have been started
+2022-06-13 22:47:36  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:47:36  Response is got, code - 200
+2022-06-13 22:47:36  Ondate attribute in response: 20080301
+2022-06-13 22:47:36  WARNING: response currency info date for 02.03.2008 is 01.03.2008
+2022-06-13 22:47:36  Total currencies in response: 18
+2022-06-13 22:47:36  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:47:36  Existing database is found and connected.
+2022-06-13 22:47:36  WARNING: Order for date 01.03.2008 is already existed with id 18. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 974 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 352 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:47:36  There is no data to insert into database
+2022-06-13 22:47:36  Database closed
+2022-06-13 22:47:46  Service have been started
+2022-06-13 22:47:46  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:47:47  Response is got, code - 200
+2022-06-13 22:47:47  Ondate attribute in response: 20160702
+2022-06-13 22:47:47  Total currencies in response: 33
+2022-06-13 22:47:47  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:47:47  Existing database is found and connected.
+2022-06-13 22:47:47  Order of date 20160702 with id 19 is inserted into db.
+2022-06-13 22:47:47  Database successfully updated by 33 rows
+2022-06-13 22:47:47  Database closed
+2022-06-13 22:49:01  Service have been started
+2022-06-13 22:49:01  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:49:01  Response is got, code - 200
+2022-06-13 22:49:01  Ondate attribute in response: 20170701
+2022-06-13 22:49:01  WARNING: response currency info date for 02.07.2017 is 01.07.2017
+2022-06-13 22:49:01  Total currencies in response: 34
+2022-06-13 22:49:01  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:49:01  Existing database is found and connected.
+2022-06-13 22:49:01  Order of date 20170701 with id 20 is inserted into db.
+2022-06-13 22:49:02  Database successfully updated by 34 rows
+2022-06-13 22:49:02  Database closed
+2022-06-13 22:49:08  Service have been started
+2022-06-13 22:49:08  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:49:08  Response is got, code - 200
+2022-06-13 22:49:08  Ondate attribute in response: 20170706
+2022-06-13 22:49:08  Total currencies in response: 34
+2022-06-13 22:49:08  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:49:08  Existing database is found and connected.
+2022-06-13 22:49:08  Order of date 20170706 with id 21 is inserted into db.
+2022-06-13 22:49:08  Database successfully updated by 34 rows
+2022-06-13 22:49:08  Database closed
+2022-06-13 22:49:19  Service have been started
+2022-06-13 22:49:19  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:49:19  Response is got, code - 200
+2022-06-13 22:49:19  Ondate attribute in response: 20130509
+2022-06-13 22:49:19  WARNING: response currency info date for 11.05.2013 is 09.05.2013
+2022-06-13 22:49:19  Total currencies in response: 35
+2022-06-13 22:49:19  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:49:19  Existing database is found and connected.
+2022-06-13 22:49:19  WARNING: Order for date 09.05.2013 is already existed with id 14. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 944 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 51 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 974 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 975 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 986 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 348 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 356 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 417 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 428 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 440 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 498 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 985 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 946 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 972 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 934 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 860 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 203 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 410 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 22:49:19  There is no data to insert into database
+2022-06-13 22:49:19  Database closed
+2022-06-13 22:49:41  Service have been started
+2022-06-13 22:49:41  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 22:49:41  Response is got, code - 200
+2022-06-13 22:49:41  Ondate attribute in response: 20110511
+2022-06-13 22:49:41  Total currencies in response: 35
+2022-06-13 22:49:41  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 22:49:41  Existing database is found and connected.
+2022-06-13 22:49:41  Order of date 20110511 with id 22 is inserted into db.
+2022-06-13 22:49:41  Database successfully updated by 35 rows
+2022-06-13 22:49:41  Database closed
+2022-06-13 23:08:37  Service have been started
+2022-06-13 23:08:37  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 23:08:38  Response is got, code - 200
+2022-06-13 23:08:38  Ondate attribute in response: 20110511
+2022-06-13 23:08:38  Total currencies in response: 35
+2022-06-13 23:08:38  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 23:08:38  WARNING: Database test.db does not exist. New database will be created.
+2022-06-13 23:08:38  Order of date 20110511 with id 1 is inserted into db.
+2022-06-13 23:08:38  Database successfully updated by 35 rows
+2022-06-13 23:08:38  Database closed
+2022-06-13 23:12:54  Service have been started
+2022-06-13 23:12:54  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 23:12:54  Response is got, code - 200
+2022-06-13 23:12:54  Ondate attribute in response: 20110511
+2022-06-13 23:12:54  Total currencies in response: 35
+2022-06-13 23:12:54  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 23:12:54  Existing database is found and connected.
+2022-06-13 23:12:55  Rewrite mode is set by --rewrite option. Current DB is cleared.
+2022-06-13 23:12:55  Order of date 20110511 with id 1 is inserted into db.
+2022-06-13 23:12:55  Database successfully updated by 35 rows
+2022-06-13 23:12:55  Database closed
+2022-06-13 23:19:44  Service have been started
+2022-06-13 23:19:44  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 23:19:44  Response is got, code - 200
+2022-06-13 23:19:44  Ondate attribute in response: 20170706
+2022-06-13 23:19:44  Total currencies in response: 34
+2022-06-13 23:19:44  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 23:19:44  Existing database is found and connected.
+2022-06-13 23:19:44  WARNING: Order for date 06.07.2017 is already existed with id 21. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 36 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 944 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 826 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 51 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 933 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 975 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 986 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 348 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 344 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 208 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 356 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 398 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 124 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 417 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 498 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 578 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 985 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 946 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 960 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 702 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 972 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 949 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 934 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 860 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 980 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 203 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 752 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 756 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 710 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 410 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  WARNING: Currency with code 392 is already existed in db. Insert ignored.
+2022-06-13 23:19:44  There is no data to insert into database
+2022-06-13 23:19:44  Database closed
+2022-06-13 23:19:49  Service have been started
+2022-06-13 23:19:49  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 23:19:49  Response is got, code - 200
+2022-06-13 23:19:49  Ondate attribute in response: 20170707
+2022-06-13 23:19:49  Total currencies in response: 34
+2022-06-13 23:19:49  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 23:19:49  Existing database is found and connected.
+2022-06-13 23:19:49  Order of date 20170707 with id 23 is inserted into db.
+2022-06-13 23:19:49  Database successfully updated by 34 rows
+2022-06-13 23:19:49  Database closed
+2022-06-13 23:20:51  Service have been started
+2022-06-13 23:20:51  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 23:20:51  Response is got, code - 200
+2022-06-13 23:20:51  Ondate attribute in response: 20210508
+2022-06-13 23:20:51  WARNING: response currency info date for 11.05.2021 is 08.05.2021
+2022-06-13 23:20:51  Total currencies in response: 34
+2022-06-13 23:20:51  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 23:20:51  Existing database is found and connected.
+2022-06-13 23:20:51  Order of date 20210508 with id 24 is inserted into db.
+2022-06-13 23:20:51  Database successfully updated by 34 rows
+2022-06-13 23:20:51  Database closed

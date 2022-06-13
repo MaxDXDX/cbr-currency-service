@@ -9,15 +9,17 @@ import datetime as dt
 
 
 class Logger:
-    def __init__(self, log_file, show_time=True):
+    def __init__(self, log_file, enable=True, show_time=True):
         self.file = log_file
         self.show_time = show_time
+        self.enable = enable
 
     def log(self, text):
         """Put log message to log file and print it in console"""
-        message = self.message(text)
-        self.to_console(message)
-        self.to_file(message)
+        if self.enable:
+            message = self.message(text)
+            self.to_console(message)
+            self.to_file(message)
 
     def message(self, text):
         """Build log message from plain text and current time/date"""

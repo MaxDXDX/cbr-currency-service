@@ -8,10 +8,13 @@ class SysArgsParser:
     count of third-party libraries.
     """
 
-    def __init__(self, require_args: list, logger):
+    def __init__(self, require_args: list, init_args, logger):
         self.logger = logger
         self.error = False
-        self.init_args = sys.argv
+        if len(sys.argv) > 1:
+            self.init_args = sys.argv
+        else:
+            self.init_args = init_args
         self.args = self.args()
         self.check_require_args(require_args)
         if not self.error:
@@ -22,14 +25,12 @@ class SysArgsParser:
 
         :return: dictionary (keys are argument names, values - related values)
         """
-        args = {}
+        args = {'rewrite': False}
         for arg in self.init_args:
             if '--' in str(arg) and '=' in str(arg):
                 args[arg.partition('--')[2].partition('=')[0]] = arg.partition('--')[2].partition('=')[2]
             if '--rewrite' in str(arg):
                 args['rewrite'] = True
-            else:
-                args['rewrite'] = False
         return args
 
     def check_require_args(self, require_args: list):
