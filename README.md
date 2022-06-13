@@ -1,6 +1,6 @@
 # Currency rate service
 
-##Project is a result of completing a task given by hh.ru employer. The script downloads currency rates from Central Bank of Russia to local database.
+## Project is a result of completing a task given by hh.ru employer. The script downloads currency rates from Central Bank of Russia to local database.
 
 
 ### Capabilities:
