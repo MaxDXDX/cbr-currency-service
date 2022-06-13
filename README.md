@@ -19,6 +19,7 @@
 
 `python start.py --date==dd.mm.yyyy --codes=code1,code2,... [--rewrite]`
 
+* `python` - python 3.8+ interpreter (it can be `python3` in your system)
 * `--date=dd.mm.yyyy` - date of currency set
 * `--codes=code1, code2, ...` - requested currency codes (separated by comma). Use `*` instead to get all available codes.
 * `--rewrite` - clear current database before saving data (optional)
