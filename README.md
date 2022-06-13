@@ -70,6 +70,8 @@ File | Description
 
 #### No any third-party packages required
 
+P.S. For testing purposes a principle of using minimal ready-to-use modules is used in this project.
+
 
 
 
