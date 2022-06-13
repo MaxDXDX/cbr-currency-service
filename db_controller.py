@@ -1,6 +1,6 @@
 import sqlite3
-from table_structures import currency_order_structure
-from table_structures import currency_rates_structure
+from tables import currency_order_structure
+from tables import currency_rates_structure
 from os.path import exists
 
 

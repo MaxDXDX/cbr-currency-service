@@ -2143,3 +2143,100 @@ Database closed
 2022-06-13 17:12:20  Order of date 20220611 with id 1 is inserted into db.
 2022-06-13 17:12:20  Database successfully updated by 2 rows
 2022-06-13 17:12:20  Database closed
+2022-06-13 18:35:11  Service have been started
+2022-06-13 18:35:11  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:35:11  Trying make data request...
+2022-06-13 18:35:12  Response is got, code - 200
+2022-06-13 18:35:12  Ondate attribute in response: 20220611
+2022-06-13 18:35:12  WARNING: response currency info date for 13.06.2022 is 11.06.2022
+2022-06-13 18:35:12  Total currencies in response: 34
+2022-06-13 18:35:12  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:35:12  Existing database is found and connected.
+2022-06-13 18:35:12  Rewrite mode is set by --rewrite option. Current DB is cleared.
+2022-06-13 18:35:12  Order of date 20220611 with id 1 is inserted into db.
+2022-06-13 18:35:12  Database successfully updated by 34 rows
+2022-06-13 18:35:12  Database closed
+2022-06-13 18:35:40  Service have been started
+2022-06-13 18:35:40  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:35:40  Trying make data request...
+2022-06-13 18:35:40  Response is got, code - 200
+2022-06-13 18:35:40  Ondate attribute in response: 20220611
+2022-06-13 18:35:40  WARNING: response currency info date for 13.06.2022 is 11.06.2022
+2022-06-13 18:35:40  Total currencies in response: 34
+2022-06-13 18:35:40  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:35:40  Existing database is found and connected.
+2022-06-13 18:35:40  WARNING: Order for date 11.06.2022 is already existed with id 1. Insert ignored.
+2022-06-13 18:35:40  WARNING: Currency with code 840 is already existed in db. Insert ignored.
+2022-06-13 18:35:40  WARNING: Currency with code 978 is already existed in db. Insert ignored.
+2022-06-13 18:35:40  WARNING: Currency with code 156 is already existed in db. Insert ignored.
+2022-06-13 18:35:40  There is no data to insert into database
+2022-06-13 18:35:40  Database closed
+2022-06-13 18:36:20  Service have been started
+2022-06-13 18:36:20  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:36:20  Trying make data request...
+2022-06-13 18:36:20  Response is got, code - 200
+2022-06-13 18:36:20  Ondate attribute in response: 20220225
+2022-06-13 18:36:20  Total currencies in response: 34
+2022-06-13 18:36:20  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:36:20  Existing database is found and connected.
+2022-06-13 18:36:20  Order of date 20220225 with id 2 is inserted into db.
+2022-06-13 18:36:20  Database successfully updated by 3 rows
+2022-06-13 18:36:20  Database closed
+2022-06-13 18:36:26  Service have been started
+2022-06-13 18:36:26  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:36:26  Trying make data request...
+2022-06-13 18:36:26  Response is got, code - 200
+2022-06-13 18:36:26  Ondate attribute in response: 20220223
+2022-06-13 18:36:26  WARNING: response currency info date for 24.02.2022 is 23.02.2022
+2022-06-13 18:36:26  Total currencies in response: 34
+2022-06-13 18:36:26  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:36:26  Existing database is found and connected.
+2022-06-13 18:36:26  Order of date 20220223 with id 3 is inserted into db.
+2022-06-13 18:36:26  Database successfully updated by 3 rows
+2022-06-13 18:36:26  Database closed
+2022-06-13 18:36:39  Service have been started
+2022-06-13 18:36:39  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:36:39  Trying make data request...
+2022-06-13 18:36:39  Response is got, code - 200
+2022-06-13 18:36:39  Ondate attribute in response: 20220226
+2022-06-13 18:36:39  WARNING: response currency info date for 28.02.2022 is 26.02.2022
+2022-06-13 18:36:39  Total currencies in response: 34
+2022-06-13 18:36:39  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:36:39  Existing database is found and connected.
+2022-06-13 18:36:39  Order of date 20220226 with id 4 is inserted into db.
+2022-06-13 18:36:39  Database successfully updated by 3 rows
+2022-06-13 18:36:39  Database closed
+2022-06-13 18:36:45  Service have been started
+2022-06-13 18:36:45  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:36:45  Trying make data request...
+2022-06-13 18:36:45  Response is got, code - 200
+2022-06-13 18:36:45  Ondate attribute in response: 20220303
+2022-06-13 18:36:45  Total currencies in response: 34
+2022-06-13 18:36:45  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:36:45  Existing database is found and connected.
+2022-06-13 18:36:45  Order of date 20220303 with id 5 is inserted into db.
+2022-06-13 18:36:45  Database successfully updated by 3 rows
+2022-06-13 18:36:45  Database closed
+2022-06-13 18:36:49  Service have been started
+2022-06-13 18:36:49  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:36:49  Trying make data request...
+2022-06-13 18:36:49  Response is got, code - 200
+2022-06-13 18:36:49  Ondate attribute in response: 20220306
+2022-06-13 18:36:49  WARNING: response currency info date for 07.03.2022 is 06.03.2022
+2022-06-13 18:36:49  Total currencies in response: 34
+2022-06-13 18:36:49  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:36:49  Existing database is found and connected.
+2022-06-13 18:36:49  Order of date 20220306 with id 6 is inserted into db.
+2022-06-13 18:36:49  Database successfully updated by 3 rows
+2022-06-13 18:36:49  Database closed
+2022-06-13 18:36:59  Service have been started
+2022-06-13 18:36:59  STEP 1 IS STARTED - RETRIEVING CURRENCY DATA
+2022-06-13 18:36:59  Trying make data request...
+2022-06-13 18:36:59  Response is got, code - 200
+2022-06-13 18:36:59  Ondate attribute in response: 20220310
+2022-06-13 18:36:59  Total currencies in response: 34
+2022-06-13 18:36:59  STEP 2 IS STARTED - DATABASE UPDATING
+2022-06-13 18:36:59  Existing database is found and connected.
+2022-06-13 18:36:59  Order of date 20220310 with id 7 is inserted into db.
+2022-06-13 18:36:59  Database successfully updated by 3 rows
+2022-06-13 18:36:59  Database closed
