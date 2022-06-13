@@ -3,7 +3,7 @@
 ## Project is a result of completing a task given by hh.ru employer. The script downloads currency rates from Central Bank of Russia to local database.
 
 
-### Capabilities:
+### Features:
 
 * #### Downloading currency rates from [Central Bank of Russia](cbr.ru) service
 * #### Save results to SQLite database
@@ -12,6 +12,7 @@
 * #### Check for existing data in database with ignoring duplicate records
 * #### Print report about inserted currency data
 * #### Test example included
+* #### Documented code
 
 ### Usage
 
